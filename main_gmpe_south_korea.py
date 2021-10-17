@@ -12,7 +12,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 ######################
 ##### Load model #####
 ######################
-model = load(open("D:\JISONG_ALL\pr2_kor_GMPE\Figure\V34_211014_revision_GB_software_wrap/model.dat", "rb"))
+model = load(open("model.dat", "rb"))
 
 sg.theme('Dark Blue 3')
 
