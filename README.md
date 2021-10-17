@@ -6,7 +6,7 @@
 Written on the python 3.7.0
 
 ## How to run
-1. Download all files and put them in same folder.
+1. Download all files and put them in the same folder.
 2. Open CMD and type [python main_gmpe_south_korea.py]
 
 ## Library required
