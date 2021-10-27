@@ -15,4 +15,5 @@ Written on the python 3.7.0
 3. numpy == 1.20.2
 4. pandas == 1.2.0
 5. matplotlib == 3.3.2
+6. sklearn == 0.23.2
 
