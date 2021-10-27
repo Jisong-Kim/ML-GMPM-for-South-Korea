@@ -1,4 +1,4 @@
-# GMPE-for-South-Korea
+# GMPM-for-South-Korea
 <p align="center">
 <img width="500" src="https://user-images.githubusercontent.com/54570998/137612521-fd2d4ac6-7c60-4843-b14a-3dbd0b2b685a.jpg">
 </p>
