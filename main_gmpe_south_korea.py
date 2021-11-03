@@ -87,17 +87,19 @@ while True:
         ax.plot(df.index.map(float), df['periods'].values, marker=None)
         
         plt.grid()
-        locmin = mpl.ticker.LogLocator(base=10.0,subs=(0.2,0.4,0.6,0.8),numticks=12)
-        
-        ax.set_yscale('log')
-        ax.set_yticks([1e-8, 1e-6, 1e-4, 1e-2, 1])
-        ax.yaxis.set_minor_locator(locmin)
-        ax.yaxis.set_minor_formatter(mpl.ticker.NullFormatter())
-        
+
         ax.set_xscale('log')
+        ax.set_yscale('log')
         ax.set_xticks([1e-2, 1e-1, 1, 10])
-        ax.xaxis.set_minor_locator(locmin)
+        ax.set_yticks([1e-8, 1e-6, 1e-4, 1e-2, 1])
+    
+        locminx = mpl.ticker.LogLocator(base=10,subs=(0.2,0.4,0.6,0.8),numticks=12)
+        locminy = mpl.ticker.LogLocator(base=10,subs=(0.2,0.4,0.6,0.8),numticks=12)
+        
+        ax.xaxis.set_minor_locator(locminx)
         ax.xaxis.set_minor_formatter(mpl.ticker.NullFormatter())
+        ax.yaxis.set_minor_locator(locminy)
+        ax.yaxis.set_minor_formatter(mpl.ticker.NullFormatter())   
 
         ax.set_xlabel('Period (s)')
         ax.set_ylabel('PSA (g)')
