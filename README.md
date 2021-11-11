@@ -1,7 +1,9 @@
 # GMPM-for-South-Korea
 <p align="center">
-<img width="500" src="https://user-images.githubusercontent.com/54570998/140007224-6b0e2586-9819-440b-9ed3-72ca68f4bff2.png">
+<img width="500" src="https://user-images.githubusercontent.com/54570998/141221655-b0d56a80-bb9a-4f14-98b8-0440563cd104.png">
 </p>
+
+Software developed by Jisong Kim (jisong@unist.ac.kr)
 
 Written on the python 3.7.0
 
