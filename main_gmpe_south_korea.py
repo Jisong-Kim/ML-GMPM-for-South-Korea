@@ -18,19 +18,38 @@ sg.theme('Dark Blue 3')
 
 part_00 = sg.Frame(layout=
                 [
-                    [sg.Text('VS30',size=(20, 1)), sg.Input('',key='-IN1-',size=(10, 1)),sg.Text('m/s')],
-                    [sg.Text('Slope angle',size=(20, 1)), sg.Input('',key='-IN2-',size=(10, 1)),sg.Text('°')],
                     [sg.Text('Local Magnitude',size=(20, 1)), sg.Input('',key='-IN3-',size=(10, 1)),sg.Text('')],
                     [sg.Text('Epicentral distance',size=(20, 1)), sg.Input('',key='-IN4-',size=(10, 1)),sg.Text('km')],
+                    [sg.Text('VS30',size=(20, 1)), sg.Input('',key='-IN1-',size=(10, 1)),sg.Text('m/s')],
+                    [sg.Text('Slope angle',size=(20, 1)), sg.Input('',key='-IN2-',size=(10, 1)),sg.Text('°')],
                     [sg.Text('Focal depth',size=(20, 1)), sg.Input('',key='-IN5-',size=(10, 1)),sg.Text('km')]
                 ], title='Input variables',title_color='white',)
 
 part_01 = sg.Frame(layout=
                   [
-                      [sg.Text('Software developed by Jisong Kim (jisong@unist.ac.kr)')],
-                      [sg.Text('Ulsan National Institute of Science and Technology (UNIST)')],
-                      [sg.Text('Ulsan, South Korea, 44919')]
+                      [sg.Text('Citation: Machine Learning-Based Surface Ground Motion')],
+                      [sg.Text('             Prediction Models for the Low-to-Moderate')],
+                      [sg.Text('             Seismicity Areas of South Korea')],
+                      [sg.Text('Authors: Hwanwoo Seo, Jisong Kim, and Byungmin Kim*')],
+                      [sg.Text('Journal: Bulletin of the Seismological Society of America')],
+                      [sg.Text('*Correspondence: byungmin.kim@unist.ac.kr')]
                   ], title='Profile', title_color='white')
+
+# part_00 = sg.Frame(layout=
+#                 [
+#                     [sg.Text('VS30',size=(20, 1)), sg.Input('',key='-IN1-',size=(10, 1)),sg.Text('m/s')],
+#                     [sg.Text('Slope angle',size=(20, 1)), sg.Input('',key='-IN2-',size=(10, 1)),sg.Text('°')],
+#                     [sg.Text('Local Magnitude',size=(20, 1)), sg.Input('',key='-IN3-',size=(10, 1)),sg.Text('')],
+#                     [sg.Text('Epicentral distance',size=(20, 1)), sg.Input('',key='-IN4-',size=(10, 1)),sg.Text('km')],
+#                     [sg.Text('Focal depth',size=(20, 1)), sg.Input('',key='-IN5-',size=(10, 1)),sg.Text('km')]
+#                 ], title='Input variables',title_color='white',)
+
+# part_01 = sg.Frame(layout=
+#                   [
+#                       [sg.Text('Software developed by Jisong Kim (jisong@unist.ac.kr)')],
+#                       [sg.Text('Ulsan National Institute of Science and Technology (UNIST)')],
+#                       [sg.Text('Ulsan, South Korea, 44919')]
+#                   ], title='Profile', title_color='white')
 
 part_10 = [sg.Button('Predict'), sg.Button('Clear all')]
 
