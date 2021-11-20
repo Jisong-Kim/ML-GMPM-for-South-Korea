@@ -1,6 +1,6 @@
 # GMPM-for-South-Korea
 <p align="center">
-<img width="500" src="https://user-images.githubusercontent.com/54570998/141221655-b0d56a80-bb9a-4f14-98b8-0440563cd104.png">
+<img width="500" src="https://user-images.githubusercontent.com/54570998/142714570-3e7c15b1-1c15-44f8-814e-56764647541a.png">
 </p>
 
 Software developed by Jisong Kim (jisong@unist.ac.kr)
