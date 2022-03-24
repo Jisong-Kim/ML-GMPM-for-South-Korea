@@ -5,6 +5,8 @@
 
 Software developed by Jisong Kim (jisong@unist.ac.kr)
 
+Paper: https://doi.org/10.1785/0120210244
+
 Written on the python 3.7.0
 
 ## How to run
